@@ -1,0 +1,72 @@
+# =====================
+# Build artifacts
+# =====================
+target/
+build/
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# =====================
+# Maven
+# =====================
+.mvn/wrapper/maven-wrapper.jar
+
+# =====================
+# IDEs
+# =====================
+# IntelliJ IDEA
+.idea
+*.iws
+*.iml
+*.ipr
+
+# Eclipse / STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# VS Code
+.vscode/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# =====================
+# Environment / Secrets
+# =====================
+.env
+.env.*
+*.env
+
+application-local.yml
+application-dev.yml
+application-prod.yml
+application.properties
+
+# =====================
+# Security
+# =====================
+*.pem
+*.key
+*.crt
+*.jks
+*.p12
+
+# =====================
+# Logs & OS
+# =====================
+logs/
+*.log
+*.md
+.DS_Store
+Thumbs.db
